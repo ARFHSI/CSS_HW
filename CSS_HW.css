@@ -15,7 +15,8 @@ body {
   position: relative;
   min-width: 536px;
 }
-.imgHeader {
+
+.imgheader {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -30,7 +31,9 @@ h1 {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
+
 .imgFloat {
   position: absolute;
   width: 20rem;
@@ -55,13 +58,13 @@ h1 {
 }
 
 .textSection p {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .textSection img {
   position: absolute;
   height: 5rem;
-  width: 30rem;
+  width: 24rem;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -110,8 +113,8 @@ h3 {
 
 h4 {
   font-weight: bold;
-  font-size: x-large;
-  width: 90%;
+  font-size: large;
+  width: 80%;
   margin-left: 2rem;
   padding: 0;
   text-align: justify;
